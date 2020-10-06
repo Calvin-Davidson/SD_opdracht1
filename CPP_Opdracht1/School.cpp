@@ -1,11 +1,12 @@
 #include "School.h"
+#include <string>;
 
-void School::AddStudent(Course course)
+void School::AddStudent(std::string student, Course course)
 {
-
+	
 }
 
-void School::RemoveStudent(Course course)
+void School::RemoveStudent(std::string student)
 {
 
 }
