@@ -10,18 +10,9 @@ private:
     std::string _output;
 
 public:
-    Date(int year, int month, int day)
-    {
-        setDate(year, month, day);
-    }
+    Date(int year = 0, int month = 0, int day = 0);
 
-    void setDate(int year, int month, int day)
-    {
-        _year = year;
-        _month = month;
-        _day = day;
-        _output = day + '-' + month + '-' + year;
-    }
+    void SetDate(int year, int month, int day);
 
     int getYear() { return _year; }
     int getMonth() { return _month; }
