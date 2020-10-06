@@ -14,8 +14,8 @@ public:
 
 	std::vector< Course > courses;
 
-	void AddStudent(Course course);
-	void RemoveStudent(Course course);
+	void AddStudent(std::string student, Course course);
+	void RemoveStudent(std::string student);
 	void NextYear();
 	void AddCourse(Course course);
 	void RemoveCourse(Course course);
