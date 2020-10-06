@@ -1,0 +1,24 @@
+School:
+String name
+String age
+Int studentCount
+String postcode
+Int phoneNumber
+
+Course (is klas):
+String name
+String age
+Int studentCount
+
+Student:
+String name
+String familyName
+String birthDate
+String adres
+String postcode
+Int phoneNumber
+String firstContactName
+String secondContactFamilyName
+Int phoneNumberfirstContact
+Int courseYear
+String admissionDate
