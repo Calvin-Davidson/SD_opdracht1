@@ -12,12 +12,12 @@ private:
     std::string _postCode;
     int _phoneNumber;
     std::string _firstContactName;
-    std::string _secondContactFamilyName;
+    std::string _firstContactFamilyName;
     int _phoneNumberfirstContact;
     int _courseYear;
     Date _admissionDate;
 
 public:
-    Student(std::string name, std::string familyName, Date birthDate, std::string adres, std::string postCode, int phoneNumber, std::string firstContactName, std::string secondContactFamilyName, int phoneNumberfirstContact, int courseYear, Date admissionDate);
+    Student(std::string name, std::string familyName, Date birthDate, std::string adres, std::string postCode, int phoneNumber, std::string firstContactName, std::string firstContactFamilyName, int phoneNumberfirstContact, int courseYear, Date admissionDate);
     ~Student();
 };

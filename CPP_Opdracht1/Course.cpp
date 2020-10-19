@@ -3,10 +3,12 @@
 
 void Course::AddStudent(Student* student)
 {
+
 }
 
 void Course::RemoveStudent(Student* student)
 {
+
 }
 
 Course::Course(std::string name)

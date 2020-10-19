@@ -11,7 +11,7 @@ public:
 	int age;
 	int studentCount;
 
-	std::vector < Student > Students;
+	std::vector < Student* > Students;
 
 	void AddStudent(Student* student);
 	void RemoveStudent(Student* student);
