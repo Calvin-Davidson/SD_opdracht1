@@ -1,0 +1,20 @@
+﻿  CPP_Opdracht1.cpp
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  School.cpp
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  CPP_Opdracht1.vcxproj -> C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\Debug\CPP_Opdracht1.exe

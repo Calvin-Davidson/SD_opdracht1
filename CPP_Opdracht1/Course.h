@@ -1,18 +1,22 @@
 #pragma once
 #include <string>;
 #include <vector>;
+#include "Student.h"
 
 class Course
 {
 
 public:
 	std::string name;
-	std::string age;
+	int age;
 	int studentCount;
 
-	std::vector < std::string> Students;
+	std::vector < Student > Students;
 
-	void AddStudent();
-	void RemoveStudent();
+	void AddStudent(Student* student);
+	void RemoveStudent(Student* student);
+	
+	Course(std::string name);
+	~Course();
 };
 

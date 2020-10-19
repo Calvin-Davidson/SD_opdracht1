@@ -2,22 +2,25 @@
 #include <string>;
 #include <vector>;
 #include "Course.h";
+#include "Student.h";
 
 class School
 {
 public:
 	std::string name;
-	std::string age;
+	int age;
 	int studentCount;
 	std::string postcode;
-	int phoneNumber;
+	long phoneNumber;
 
-	std::vector< Course > courses;
+	std::vector< Course* > courses;
 
-	void AddStudent(std::string student, Course course);
-	void RemoveStudent(std::string student);
+	void AddStudent(Student* student, Course* course);
+	void RemoveStudent(Student* student);
 	void NextYear();
-	void AddCourse(Course course);
-	void RemoveCourse(Course course);
+	void AddCourse(Course* course);
+	void RemoveCourse(Course* course);
+
+	School(std::string name, std::string postcode, long phoneNumber);
 };
 

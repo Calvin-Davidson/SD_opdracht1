@@ -1,6 +1,6 @@
 #include "Date.h"
 
-Date::Date(int year = 0, int month = 0, int day = 0)
+Date::Date(int year, int month, int day)
 {
     SetDate(year, month, day);
 }
