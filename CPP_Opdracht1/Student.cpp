@@ -19,9 +19,14 @@ Student::Student(std::string name, std::string familyName, Date birthDate, std::
 }
 
 Student::~Student()
-{
-    std::cout << "Student deleted";
+{ 
+    std::cout << "Student deleted student Name: " << this->_name << "\n";
+}
 
-    delete &_admissionDate;
-    delete &_birthDate;
+void Student::NextYear() {
+    _courseYear += 1;
+}
+
+bool Student::DoneWithSchool() {
+    return (this->_courseYear > 4);
 }
