@@ -1,9 +1,10 @@
 #include <string>;
 #include <iostream>;
+#include <Windows.h>
+
 #include "Student.h";
 #include "School.h";
 #include "Course.h";
-
 
 void School::AddStudent(Student* student, Course* course)
 {
@@ -16,8 +17,11 @@ void School::RemoveStudent(Student* student)
 {
 	studentCount -= 1;
 
-	std::cout << "een student heeft de school verlaten\n";
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
+	SetConsoleTextAttribute(hConsole, 2);
+	std::cout << "een student heeft de school verlaten\n";
+	SetConsoleTextAttribute(hConsole, 0);
 
 	for (int i = 0; i < courses.size(); i++) {
 		for (int j = 0; j < courses[i]->Students.size(); j++) {
@@ -35,7 +39,12 @@ void School::RemoveStudent(Student* student)
 void School::NextYear()
 {
 	this->age += 1;
+
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+	SetConsoleTextAttribute(hConsole, 3);
 	std::cout << "Het volgende school jaar is ingegaan\n";
+	SetConsoleTextAttribute(hConsole, 0);
 
 	for (int i = 0; i < courses.size(); i++) {
 		for (int j = 0; j < courses[i]->Students.size(); j++) {
@@ -45,6 +54,7 @@ void School::NextYear()
 			// Is the student done with school ( 4 years in school ) 
 			if (courses[i]->Students[j]->DoneWithSchool()) {
 				RemoveStudent(courses[i]->Students[j]);
+				j -= 1;
 			}
 		}
 	}

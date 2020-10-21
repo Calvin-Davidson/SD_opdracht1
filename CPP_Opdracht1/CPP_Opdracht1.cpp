@@ -2,6 +2,7 @@
 #include <chrono>
 #include <thread>
 #include <windows.h>
+#include <ctime>;
 #include "School.h";
 #include "Course.h";
 #include "Student.h";
@@ -13,26 +14,13 @@ void sleepFor(int seconds) {
 void printSchoolInformation(School* school) {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
-	SetConsoleTextAttribute(hConsole, 1);
-	std::cout << "Schoolname: " << school->name;
-	std::cout << "\n";
-	SetConsoleTextAttribute(hConsole, 2);
-	std::cout << "Schoolage: " << school->age;
-	std::cout << "\n";
-	SetConsoleTextAttribute(hConsole, 3);
-	std::cout << "Postcode: " << school->postcode;
-	std::cout << "\n";
-	SetConsoleTextAttribute(hConsole, 4);
-	std::cout << "Telefoon nummer: " << school->phoneNumber;
-	std::cout << "\n\n";
-
-	SetConsoleTextAttribute(hConsole, 5);
-	std::cout << "Courses: " << school->courses.size();
-	std::cout << "\n";
-	SetConsoleTextAttribute(hConsole, 6);
-	std::cout << "StudentCount: " << school->studentCount;
-
-	std::cout << "\n";
+	SetConsoleTextAttribute(hConsole, 7); 
+	std::cout << "Schoolname: " << school->name << "\n";
+	std::cout << "Schoolage: " << school->age << "\n";
+	std::cout << "Postcode: " << school->postcode << "\n";
+	std::cout << "Telefoon nummer: " << school->phoneNumber << "\n\n";
+	std::cout << "Courses: " << school->courses.size() << "\n";
+	std::cout << "StudentCount: " << school->studentCount << "\n";
 }
 
 void clearConsole() {
@@ -41,11 +29,6 @@ void clearConsole() {
 
 int main()
 {
-	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleTextAttribute(hConsole, 1);
-	std::cout << " I want to be nice today!" << "\n";
-
-
 	School* school = new School("Media collage amsterdam", "3278 GT", 2147483646);
 
 	Course* course_gamedev = new Course("Game developer");
@@ -71,6 +54,7 @@ int main()
 	Student* student6 = new Student("Calvin6", "Davidson", birthDate, "Laan van brussel", "1825 GS", 234534534, "Linda", "Davidson", 2432424, 3, currentData);
 	Student* student7 = new Student("Calvin7", "Davidson", birthDate, "Laan van brussel", "1825 GS", 234534534, "Linda", "Davidson", 2432424, 0, currentData);
 	Student* student8 = new Student("Calvin8", "Davidson", birthDate, "Laan van brussel", "1825 GS", 234534534, "Linda", "Davidson", 2432424, 4, currentData);
+
 	Student* student9 = new Student("Ingmar", "van Busschbach", birthDate2, "Hondsdraf", "8255 KB", 628291231, "Erik", "van Busschbach", 2432424, 0, currentData);
 	Student* student10 = new Student("Ingmar1", "van Busschbach", birthDate2, "Hondsdraf", "8255 KB", 628291231, "Erik", "van Busschbach", 2432424, 0, currentData);
 	Student* student11 = new Student("Ingmar2", "van Busschbach", birthDate2, "Hondsdraf", "8255 KB", 628291231, "Erik", "van Busschbach", 2432424, 1, currentData);
@@ -80,7 +64,7 @@ int main()
 	Student* student15 = new Student("Ingmar6", "van Busschbach", birthDate2, "Hondsdraf", "8255 KB", 628291231, "Erik", "van Busschbach", 2432424, 3, currentData);
 	Student* student16 = new Student("Ingmar7", "van Busschbach", birthDate2, "Hondsdraf", "8255 KB", 628291231, "Erik", "van Busschbach", 2432424, 0, currentData);
 	Student* student17 = new Student("Ingmar8", "van Busschbach", birthDate2, "Hondsdraf", "8255 KB", 628291231, "Erik", "van Busschbach", 2432424, 4, currentData);
-	
+
 	school->AddStudent(student, course_gamedev);
 	school->AddStudent(student2, course_gamedev);
 	school->AddStudent(student9, course_gamedev);
@@ -103,12 +87,18 @@ int main()
 	school->AddStudent(student15, course_gameArtist);
 	school->AddStudent(student16, course_gameArtist);
 
+	clearConsole();
 	printSchoolInformation(school);
+	sleepFor(4);
+	clearConsole();
 
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i < 10; i++) {
 		school->NextYear();
 		printSchoolInformation(school);
-		sleepFor(4);
+		sleepFor(1);
+		std::cout << "\n\nType iets om naar het volgende jaar te gaan\n";
+		std::string test;
+		std::cin >> test;
 		clearConsole();
 	}
 

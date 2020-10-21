@@ -18,5 +18,6 @@ public:
     int getMonth() { return _month; }
     int getDay() { return _day; }
     std::string getDate() { return _output; }
+    void SetCurrentDate();
 };
 

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Student.h"
 
+#include <windows.h>
 Student::Student(std::string name, std::string familyName, Date birthDate, std::string adres, std::string postCode, int phoneNumber, std::string firstContactName, std::string firstContactFamilyName, int phoneNumberfirstContact, int courseYear, Date admissionDate)
 {
     this->_name = name;
@@ -20,7 +21,11 @@ Student::Student(std::string name, std::string familyName, Date birthDate, std::
 
 Student::~Student()
 { 
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SetConsoleTextAttribute(hConsole, 4);
     std::cout << "Student deleted student Name: " << this->_name << "\n";
+    SetConsoleTextAttribute(hConsole, 1);
 }
 
 void Student::NextYear() {
