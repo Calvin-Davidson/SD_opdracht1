@@ -7,16 +7,27 @@ class Course
 {
 
 public:
+	std::vector < Student* > students;
+
+	Course(std::string name);
+	~Course();
+
+	void AddStudent(Student* student);
+	void RemoveStudent(Student* student);
+
+	// getters and setters
+	std::string GetName();
+	int GetAge();
+	int GetStudentCounter();
+	std::vector<Student*> * GetStudents();
+
+	void SetName(std::string name);
+	void SetAge(int age);
+	
+private:
 	std::string name;
 	int age;
 	int studentCount;
 
-	std::vector < Student* > Students;
-
-	void AddStudent(Student* student);
-	void RemoveStudent(Student* student);
-	
-	Course(std::string name);
-	~Course();
 };
 

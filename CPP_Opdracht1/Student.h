@@ -20,6 +20,7 @@ private:
 public:
     Student(std::string name, std::string familyName, Date birthDate, std::string adres, std::string postCode, int phoneNumber, std::string firstContactName, std::string firstContactFamilyName, int phoneNumberfirstContact, int courseYear, Date admissionDate);
     ~Student();
+
     void NextYear();
     bool DoneWithSchool();
 };

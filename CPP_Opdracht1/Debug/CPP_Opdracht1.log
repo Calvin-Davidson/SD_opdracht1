@@ -10,8 +10,9 @@ C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(26,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(27,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(50,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(25,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(52,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
   CPP_Opdracht1.vcxproj -> C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\Debug\CPP_Opdracht1.exe
