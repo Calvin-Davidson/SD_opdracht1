@@ -23,4 +23,30 @@ public:
 
     void NextYear();
     bool DoneWithSchool();
+
+    // getters and setters
+
+    std::string GetName();
+    std::string GetFamilyName();
+    Date GetBirthDate();
+    std::string GetAdres();
+    std::string GetPostcode();
+    int GetPhoneNumber();
+    std::string GetFirstContactName();
+    std::string GetFirstContactFamilyName();
+    int GetFirstContactPhonenumber();
+    int GetCourseYear();
+    Date GetAdmissionDate();
+
+    void SetName(std::string name);
+    void SetFamiltyName(std::string famililyName);
+    void SetBirthDate(Date date);
+    void SetAdres(std::string adres);
+    void SetPostcode(std::string postcode);
+    void SetPhoneNumber(int Number);
+    void SetFirstContactName(std::string name);
+    void SetFirstContactFamilyName(std::string name);
+    void SetFirstContactPhonenumber(int number);
+    void SetCourseYear(int year);
+    void SetAdmissionDate(Date date);
 };

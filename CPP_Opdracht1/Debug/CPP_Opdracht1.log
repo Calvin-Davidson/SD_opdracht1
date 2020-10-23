@@ -1,4 +1,60 @@
-﻿  School.cpp
+﻿  CPP_Opdracht1.cpp
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(22,80): warning C4305: 'argument': truncation from '__int64' to 'long'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(22,68): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(38,157): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(38,129): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(39,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(39,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(40,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(40,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(41,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(41,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(42,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(42,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(43,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(43,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(44,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(44,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(45,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(45,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(46,159): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(46,131): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(48,163): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(48,135): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(49,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(49,137): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(50,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(50,137): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(51,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(51,137): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(52,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(52,137): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(53,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(53,137): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(54,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(54,137): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(55,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(55,137): warning C4309: 'argument': truncation of constant value
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(56,165): warning C4305: 'argument': truncation from '__int64' to 'int'
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\CPP_Opdracht1.cpp(56,137): warning C4309: 'argument': truncation of constant value
+  Course.cpp
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\Course.cpp(26,20): warning C4018: '<': signed/unsigned mismatch
+  School.cpp
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
@@ -15,4 +71,6 @@ C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(52,21): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\CPP_Opdracht1\School.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
+  Student.cpp
+  Generating Code...
   CPP_Opdracht1.vcxproj -> C:\Users\Calvin\Desktop\school\Periode_01\c++\SD_opdracht1\Debug\CPP_Opdracht1.exe
